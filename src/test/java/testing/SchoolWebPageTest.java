@@ -39,7 +39,7 @@ public class SchoolWebPageTest {
         // Extracting login credentials from a configuration file
         extractingLoginCredentials();
 
-        // Attempting to login
+        // Attempting login
         schoolWebPageUtils.enteringToSchoolWebsite(schoolWebsiteURL, username, password);
 
         String homePageTitle = schoolWebPageUtils.getDriver().getTitle();
@@ -55,7 +55,7 @@ public class SchoolWebPageTest {
         // Extracting login credentials from a configuration file
         extractingLoginCredentials();
 
-        // Attempting to login
+        // Attempting login
         schoolWebPageUtils.enteringToSchoolWebsite(schoolWebsiteURL, username, password);
 
         schoolWebPageUtils.clickingOnGradesOption();
@@ -72,7 +72,7 @@ public class SchoolWebPageTest {
     public void testNumberOfAvailableYears() throws IOException {
         extractingLoginCredentials();
 
-        // Attempting to login
+        // Attempting login
         schoolWebPageUtils.enteringToSchoolWebsite(schoolWebsiteURL, username, password);
         schoolWebPageUtils.clickingOnGradesOption();
 
